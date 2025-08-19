@@ -1,0 +1,73 @@
+/* Header */
+.header-content {
+    padding: 24px 0;
+}
+
+.header__links a {
+    font-size: 16px;
+}
+
+.header-links-and-logo {
+    gap: 65px;
+}
+
+.header__logo img {
+    width: 140px;
+}
+
+.header-content button {
+    background-color: #E95D02;
+}
+
+.header__links {
+    gap: 32px;
+}
+/* ----------- */
+
+/* Burger Menu */
+#burger-btn {
+    display: none;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    transition: all .3s;
+    background-color: transparent;
+}
+.burger-line {
+    position: absolute;
+    left: 2px;
+    background-color: #000;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    transition: all .3s;
+}
+.burger-line:nth-child(1) {
+    top: 5px;
+}
+.burger-line:nth-child(2) {
+    top: 9px;
+}
+.burger-line:nth-child(3) {
+    bottom: 9px;
+}
+.burger-line:nth-child(4) {
+    bottom: 5px;
+}
+
+.dropdown {
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    width: 150px;
+    height: 300px;
+    right: -150px;
+    top: 75px;
+    transition: all .3s;
+}
+
+.dropdown-active{
+    position: absolute;
+    right: 0;
+    background-color: gainsboro;
+}

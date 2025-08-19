@@ -6,10 +6,37 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/helper.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script src="./javascript/burger.js" defer></script>
     <title>Insurance</title>
 </head>
 <body>
     <header>
+        <nav class="header-wrapper f-c-c-r">
+            <div class="header-content max-width-content f-sb-c-r">
+                <div class="header-links-and-logo f-s-c-r">
+                    <a href="/" class="header__logo">
+                        <img src="./img/coca-logo.png" alt="logo">
+                    </a>
+                    <ul class="header__links f-s-c-r">
+                        <li><a href="#" class="text-black bold inter">About</a></li>
+                        <li><a href="#" class="text-gray inter">Blog</a></li>
+                        <li><a href="#" class="text-gray inter">Contact</a></li>
+                    </ul>                   
+                </div>
+                <button class="header__button btn-rounded">Sign in</button>
+
+                <button id="burger-btn">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </button>
+                <nav id="dropdown" class="dropdown">
+                    
+                </nav>
+            </div>
+        </nav>
     </header>
     
     <main>
