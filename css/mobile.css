@@ -10,6 +10,9 @@
     #burger-btn {
         display: flex;
     }
+    .dropdown {
+        display: flex;
+    }
 
 
 }

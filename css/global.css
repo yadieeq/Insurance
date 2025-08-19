@@ -26,12 +26,16 @@
 
 /* Burger Menu */
 #burger-btn {
+    border-radius: 100%;
     display: none;
     position: relative;
     width: 24px;
     height: 24px;
     transition: all .3s;
     background-color: transparent;
+}
+#burger-btn:active {
+    background-color: lightslategray;
 }
 .burger-line {
     position: absolute;
@@ -56,7 +60,7 @@
 }
 
 .dropdown {
-    display: flex;
+    display: none;
     position: fixed;
     background-color: transparent;
     width: 150px;
@@ -71,3 +75,4 @@
     right: 0;
     background-color: gainsboro;
 }
+/* --------- */
