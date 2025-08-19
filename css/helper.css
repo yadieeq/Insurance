@@ -114,9 +114,9 @@
 /* ---- */
 
 /* display */
+/* display - justifyContent - alignItems - flexDirection*/
 
 /*row*/
-/* display - justifyContent - alignItems - flexDirection*/
 .f-c-c-r {
     display: flex;
     justify-content: center;
