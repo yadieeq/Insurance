@@ -51,4 +51,26 @@
     }
 
 
+    /* Section 4 */
+    .package-wrapper {
+        overflow-x: visible;
+    }
+    .package-content {
+        flex-direction: column;
+        max-width: 500px;
+    }
+    .package__variants {
+        width: 105%;
+        overflow-x: auto;
+    }
+    .package__square {
+        width: 310px;
+    }
+    .package__text {
+        max-width: 500px;
+        width: 100%;
+        max-width: 500px;
+    }
+
+
 }

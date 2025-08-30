@@ -1,0 +1,68 @@
+.package-wrapper {
+    background-color: var(--bg-color-light_green);
+}
+
+
+.package__variants {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.package__square {
+    background-color: white;
+    gap: 24px;
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.square__logo {
+    width: 56px;
+    height: 56px;
+    background-color: #018C91;
+    border-radius: 100%;
+}
+
+.square__content {
+    gap: 16px;
+}
+
+.package__square:nth-child(2) .square__logo {
+    background: linear-gradient(123deg, #5A7EE6 -12.05%, #B95AE6 115.48%); ;
+}
+.package__square:nth-child(3) .square__logo {
+    background: linear-gradient(112deg, #F68F3A -32.41%, #F57653 128.42%);
+}
+.package__square:nth-child(4) .square__logo {
+    background: linear-gradient(126deg, #FFC24A -7.69%, #FF814A 105.9%);
+}
+
+.package__square p {
+    font-weight: 400;
+}
+
+.package-content {
+    gap: 53px;
+}
+
+.package__text {
+    gap: 100px;
+    width: 40%;
+    align-self: center;
+}
+
+.package-text__title-block {
+    gap: 32px;
+}
+
+.package-text__title {
+    gap: 16px;
+}
+
+.package-text__title-block p {
+    letter-spacing: 0.16px;
+    font-weight: 400;
+    font-size: 16px;
+}
