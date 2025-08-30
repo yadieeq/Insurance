@@ -1,0 +1,64 @@
+.insurance__title button {
+    background-color: #FFE8D9;
+    padding: 8px;
+}
+
+.small-btn-span {
+    padding: 6px 12px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.small-btn-span2 {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.insurance__title {
+    gap: 32px;
+    max-width: 540px;
+}
+
+.insurance__buttons {
+    gap: 24px;
+}
+
+.insurance__text {
+    gap: 64px;
+    z-index: 2;
+    width: 50%;
+}
+
+.insurance-content {
+    position: relative;
+}
+
+.insurance-wrapper {
+    overflow-x: hidden;
+}
+
+.insurance__decoration {
+    position: relative;
+    width: 40%;
+
+}
+
+.insurance__decoration img {
+    position: absolute;
+    border-radius: 50% 0 0 0;
+    padding: 54px;
+    padding-bottom: 0;
+    background: linear-gradient(216deg, #018186 21.06%, rgba(248, 248, 248, 0.00) 97.44%);
+    border-bottom: none;
+    width: 600px;
+    bottom: -350px;
+    right: -200px;
+
+}

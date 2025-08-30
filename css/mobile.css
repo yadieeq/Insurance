@@ -1,5 +1,5 @@
 /* Standart mobile breakpoint */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     /* Header */
     .header__links {
         display: none;
@@ -12,6 +12,42 @@
     }
     .dropdown {
         display: flex;
+    }
+
+
+    /* Section 1 */
+    .insurance-content {
+        flex-direction: column;
+        max-width: 500px;
+        gap: 58px;
+    }
+    .insurance__text {
+        width: 100%;
+    }
+    .insurance__decoration {
+        width: 100%;
+        position: static;
+
+    }
+    .insurance__decoration img {
+        position: static;
+        width: 110%;
+        transform: translateX(-4%);
+        max-width: 450px;
+        padding: 27px;
+        padding-bottom: 0;
+    }
+    .insurance__buttons {
+        gap: 8px;
+    }
+    .insurance__buttons button {
+        padding: 10px 20px;
+    }
+    .insurance__title button span {
+        font-size: 12px;
+    }
+    .small-btn-span {
+        padding: 6px 8px;
     }
 
 
