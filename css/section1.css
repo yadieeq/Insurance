@@ -42,7 +42,7 @@
 }
 
 .insurance-wrapper {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .insurance__decoration {
