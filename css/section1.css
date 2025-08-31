@@ -38,6 +38,7 @@
 
 .insurance-content {
     position: relative;
+    padding-top: 70px;
 }
 
 .insurance-wrapper {
@@ -58,7 +59,6 @@
     background: linear-gradient(216deg, #018186 21.06%, rgba(248, 248, 248, 0.00) 97.44%);
     border-bottom: none;
     width: 600px;
-    bottom: -350px;
-    right: -200px;
-
+    bottom: -320px;
+    right: -220px;
 }

@@ -1,5 +1,4 @@
-/* Standart mobile breakpoint */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) /* Standart mobile breakpoint */{
     /* Header */
     .header__links {
         display: none;
@@ -31,9 +30,8 @@
     }
     .insurance__decoration img {
         position: static;
-        width: 110%;
+        width: 120%;
         transform: translateX(-4%);
-        max-width: 450px;
         padding: 27px;
         padding-bottom: 0;
     }
@@ -50,6 +48,16 @@
         padding: 6px 8px;
     }
 
+    /* Section 2 */
+    .logos-content img {
+        min-width: 0;
+        width: 100%
+    }
+
+    .logos-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     /* Section 4 */
     .package-wrapper {
@@ -71,6 +79,4 @@
         width: 100%;
         max-width: 500px;
     }
-
-
 }

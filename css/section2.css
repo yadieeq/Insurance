@@ -1,0 +1,9 @@
+.logos-content{
+    gap: 20px;
+    padding: 75px 0;
+}
+
+.logos-content img {
+    width: calc(25% - 15px);
+    min-width: 215px;
+}
