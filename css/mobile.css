@@ -59,6 +59,18 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* Section 3 */
+    @media screen and (max-width: 400px) {
+        .slider__card {
+            max-width: 288px;
+            text-align: center;
+            padding: 20px;
+            gap: 56px;
+            flex-shrink: 0;
+            width: 420px;
+}
+    }
+
     /* Section 4 */
     .package-wrapper {
         overflow-x: visible;
