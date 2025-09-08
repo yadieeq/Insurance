@@ -4,7 +4,7 @@
 }
 
 .small-btn-span {
-    padding: 6px 12px;
+    padding: 6px 12px !important;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
@@ -28,6 +28,7 @@
 
 .insurance__buttons {
     gap: 24px;
+    
 }
 
 .insurance__text {
